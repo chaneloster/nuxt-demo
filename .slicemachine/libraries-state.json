@@ -1,0 +1,96 @@
+{
+  "slices": {
+    "components": {
+      "myslice": {
+        "library": "slices",
+        "id": "myslice",
+        "name": "Myslice",
+        "description": "Myslice",
+        "model": {
+          "id": "myslice",
+          "type": "SharedSlice",
+          "name": "Myslice",
+          "description": "Myslice",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Myslice",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading1",
+                    "label": "Title",
+                    "placeholder": "This is where it all begins..."
+                  }
+                },
+                "description": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "paragraph",
+                    "label": "Description",
+                    "placeholder": "A nice description of your product"
+                  }
+                },
+                "lien": {
+                  "config": {
+                    "label": "Lien",
+                    "placeholder": "",
+                    "allowTargetBlank": false
+                  },
+                  "type": "Link"
+                },
+                "couleur": {
+                  "config": {
+                    "label": "Couleur",
+                    "placeholder": ""
+                  },
+                  "type": "Color"
+                }
+              },
+              "items": {}
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "name": "Default",
+            "slice_type": "myslice",
+            "items": [],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading1",
+                  "text": "Empower frictionless channels",
+                  "spans": []
+                }
+              ],
+              "description": [
+                {
+                  "type": "paragraph",
+                  "text": "Esse nisi amet adipisicing ut sint ut aliquip cillum nostrud deserunt nulla. Amet pariatur quis anim anim laborum amet eu pariatur do.",
+                  "spans": []
+                }
+              ],
+              "lien": {
+                "link_type": "Web",
+                "url": "http://google.com"
+              },
+              "couleur": "#5a6b57"
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "isDirectory": true,
+          "extension": "vue"
+        },
+        "screenshotPaths": {}
+      }
+    }
+  }
+}

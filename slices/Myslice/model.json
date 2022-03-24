@@ -1,0 +1,49 @@
+{
+  "id": "myslice",
+  "type": "SharedSlice",
+  "name": "Myslice",
+  "description": "Myslice",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "Myslice",
+      "primary": {
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "single": "heading1",
+            "label": "Title",
+            "placeholder": "This is where it all begins..."
+          }
+        },
+        "description": {
+          "type": "StructuredText",
+          "config": {
+            "single": "paragraph",
+            "label": "Description",
+            "placeholder": "A nice description of your product"
+          }
+        },
+        "lien": {
+          "config": {
+            "label": "Lien",
+            "placeholder": "",
+            "allowTargetBlank": false
+          },
+          "type": "Link"
+        },
+        "couleur": {
+          "config": {
+            "label": "Couleur",
+            "placeholder": ""
+          },
+          "type": "Color"
+        }
+      },
+      "items": {}
+    }
+  ]
+}

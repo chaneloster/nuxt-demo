@@ -1,0 +1,23 @@
+{
+  "id": "17177d9b-6589-4d31-8435-6e1be5fa390e",
+  "uid": "iste-blanditiis-optio",
+  "type": "Homepage",
+  "data": {
+    "title": [
+      {
+        "type": "paragraph",
+        "text": "Minim pariatur enim deserunt excepteur dolor sunt adipisicing cupidatat consectetur tempor quis non irure enim. Sint irure fugiat ex ad enim.",
+        "spans": []
+      }
+    ],
+    "banner": {
+      "dimensions": {
+        "width": 900,
+        "height": 500
+      },
+      "alt": "Placeholder image",
+      "copyright": null,
+      "url": "https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?w=900&h=500&fit=crop"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+[
+  {
+    "variation": "default",
+    "name": "Default",
+    "slice_type": "myslice",
+    "items": [],
+    "primary": {
+      "title": [
+        {
+          "type": "heading1",
+          "text": "Empower frictionless channels",
+          "spans": []
+        }
+      ],
+      "description": [
+        {
+          "type": "paragraph",
+          "text": "Esse nisi amet adipisicing ut sint ut aliquip cillum nostrud deserunt nulla. Amet pariatur quis anim anim laborum amet eu pariatur do.",
+          "spans": []
+        }
+      ],
+      "lien": {
+        "link_type": "Web",
+        "url": "http://google.com"
+      },
+      "couleur": "#5a6b57"
+    }
+  }
+]
